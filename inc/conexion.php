@@ -3,7 +3,7 @@
 	</head>
 	<body>
 		<?
-			$conexion = new mysqli("localhost","root","root",'programacionweb');
+			$conexion = new mysqli("mysql.hostinger.es","u263134681_gaby","gaby2016",'u263134681_gaby');
 			if($conexion->conect_errno){
 				echo "Error al connectar a la BBDD".
 					$conexion->connect_errno.",".
